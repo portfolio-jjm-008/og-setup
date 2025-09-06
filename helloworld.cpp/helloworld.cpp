@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<string> msg {"Hello World", "from", "VS Code", "and the C++ extension!"};
 
     for (const string& word : msg)
     {
@@ -19,3 +19,5 @@ int main()
     }
     cout << endl;
 }
+
+//Adding another comment to see if I can get a commit

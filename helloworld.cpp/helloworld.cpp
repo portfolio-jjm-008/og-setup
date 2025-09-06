@@ -1,8 +1,11 @@
+// Name:  Jess Myer
+// Date: 9/05/2025
+// Purpose: Say hello world in c++
+
 #include <iostream>
 #include <vector>
 #include <string>
 
-//this is a test
 
 using namespace std;
 

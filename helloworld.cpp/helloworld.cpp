@@ -3,21 +3,12 @@
 // Purpose: Say hello world in c++
 
 #include <iostream>
-#include <vector>
-#include <string>
-
-
-using namespace std;
+// using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello World", "from", "VS Code", "and the C++ extension!"};
-
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    //prints string enclosed in double quotes
+    std::cout << "Hello World!";
+    return 0;
 }
 
-//Adding another comment to see if I can get a commit
